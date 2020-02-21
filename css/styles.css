@@ -1,0 +1,105 @@
+/* ----------------------------------------------- */
+/* Base */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/* ----------------------------------------------- */
+/* ----- Headings ----- */
+/* ----------------------------------------------- */
+
+h1 {
+/*    font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 120%;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+/* ----------------------------------------------- */
+/* ----- Links ----- */
+/* ----------------------------------------------- */
+
+a:link,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #9F8753;
+}
+
+/* ----------------------------------------------- */
+/* Reuseables */
+/* ----------------------------------------------- */
+
+
+
+/* ----------------------------------------------- */
+/* ----- Paragraphs ----- */
+/* ----------------------------------------------- */
+
+
+/* ----------------------------------------------- */
+/* ----- Header ----- */
+/* Only used by Splash Page */
+/* ----------------------------------------------- */
+
+header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/truck.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(img/truck.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.header-logo {
+    display: inline-block;
+    max-width: 400px;
+    margin-top: 10px;
+    margin-left: 3%;
+    margin-right: 15px;
+}
+
+.header-content {
+    margin-left: 3%;
+    margin-top: 50px;
+    color: #fff;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+.header-contacts i {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
