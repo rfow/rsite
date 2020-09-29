@@ -1,0 +1,261 @@
+/* ----------------------------------------------- */
+/* Base */
+/* ----------------------------------------------- */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Nunito Sans', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+.content {
+    padding-top: 50px;
+}
+
+hr {
+    margin: 35px 10%;
+    height: 1px;
+    border: none;
+    background-color: #ddd;
+}
+
+
+/*
+.clearfix {zoom: 1;}
+.clearfix:after {
+    content: '.';
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+*/
+
+/* ----------------------------------------------- */
+/* Reuseables */
+/* ----------------------------------------------- */
+
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+/*    padding: 80px 0;*/
+}
+
+/* ----------------------------------------------- */
+/* ----- Headings ----- */
+/* ----------------------------------------------- */
+
+h1 {
+/*    font-family: 'Nunito Sans', sans-serif;*/
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 120%;
+    letter-spacing: 1px;
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #fff;
+}
+
+h2 {
+    font-family: 'Nunito Sans', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 120%;
+    color: #96805B;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 2.5%;
+}
+
+/* ----------------------------------------------- */
+/* ----- Links ----- */
+/* ----------------------------------------------- */
+
+a:link,
+a:visited {
+    color: #fff;
+    text-decoration: none;
+    -webkit-transition: border-bottom 0.2s, color 0.2s;
+    transition: border-bottom 0.2s, color 0.2s;
+}
+
+a:hover,
+a:active {
+    color: #96805B;
+}
+
+
+/* ----------------------------------------------- */
+/* ----- Generals & Chart Section ----- */
+/* ----------------------------------------------- */
+
+p {
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 400;
+    font-size: 80%;
+    color: #333333;
+    margin-left: 10%;
+    margin-right: 10%;
+    line-height: 145%;
+    margin-bottom: 10px;
+}
+
+
+p a:link,
+p a:visited {
+    color: #005DB9;
+}
+
+p a:hover,
+p a:active {
+    color: #96805B;
+}
+
+
+/*
+.intro-text p {
+    line-height: 145%;
+    font-weight: 400;
+    width: 80%;
+    margin-left: 10%;
+}
+*/
+
+.comment {
+    margin-top: 15px;
+}
+
+.chart:last-child {
+    margin-bottom: 50px;
+    page-break-inside: avoid;
+}
+
+/* ----------------------------------------------- */
+/* ----- Main Nav ----- */
+/* ----------------------------------------------- */
+
+nav {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 50px;
+    background-color:  #222222; 
+}
+
+.logo {
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+/* ----------------------------------------------- */
+/* ----- Footer ----- */
+/* ----------------------------------------------- */
+
+footer {
+    background-color: #222222;
+    padding: 20px;
+    font-size: 80%;
+    
+}
+
+footer p {
+    margin-top: 8px;
+    color: #96805B;
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.footer-nav {
+    list-style: none;
+    margin-bottom: 8px;
+}
+
+.footer-nav,
+.copyright {
+    margin-left: 5%;
+    margin-right: 5%;
+    text-align: center;
+}
+
+.footer-nav li,
+.copyright li {
+    display: inline-block;
+}
+
+.footer-nav li {
+    margin-right: 10%;
+}
+
+.footer-nav li:last-child {
+    margin-right: 0;
+}
+
+.copyright {
+    list-style: none;
+    color: #96805B;
+    font-size: 80%;
+}
+
+.copyright li:first-child {
+    margin-right: 5%;
+}
+
+/* ----------------------------------------------- */
+/* ----- Header (Splash Only) ----- */
+/* ----------------------------------------------- */
+
+header {
+    background-image: -webkit-linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/truck.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(img/truck.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.header-logo {
+    display: inline-block;
+    max-width: 400px;
+    margin-top: 10px;
+    margin-left: 3%;
+    margin-right: 15px;
+}
+
+.header-content {
+    margin-left: 3%;
+    margin-top: 50px;
+    color: #fff;
+}
+
+header ul {
+    list-style-type: none;
+}
+
+.header-contacts i {
+    display: inline-block;
+    text-align: center;
+    margin-right: 10px;
+    line-height: 120%;
+    vertical-align: middle;
+    margin-top: -5px;
+}
